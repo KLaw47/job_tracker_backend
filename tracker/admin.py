@@ -1,3 +1,8 @@
 from django.contrib import admin
+from .models import Contact, ContactInteraction, JobApplication, UpdateCycle
 
-# Register your models here.
+admin.site.register(Contact)
+admin.site.register(ContactInteraction)
+admin.site.register(JobApplication)
+admin.site.register(UpdateCycle)
+
